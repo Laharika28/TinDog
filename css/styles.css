@@ -1,0 +1,189 @@
+
+/********************************** ID SELECTORS *******************************************/
+
+
+/********************************** CLASS SELECTORS *******************************************/
+
+
+/********************************** ELEMENT SELECTORS *******************************************/
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3{
+    font-size: 1.4rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+
+body{
+  font-family: 'Montserrat';
+}
+
+/************************************* Navbar *************************************************/
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+
+/********************************************** Title Section ************************************************************/
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+#title{
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.title-img{
+  position: absolute;
+  left: 15%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+@media (max-width: 992px)
+{
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/********************************************* Download Buttons ******************************************************/
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/********************************************* Feature Section **********************************************************/
+
+
+
+#features{
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-desc{
+  color: #8f8f8f;
+  margin-top: 1rem;
+}
+
+.feature-icon{
+  color: #ef8172;
+}
+
+.feature-icon:hover{
+  color: #FF4C68;
+}
+
+.feature-section{
+  text-align: center;
+  padding: 4%;
+}
+
+/********************************* Testimonials Section **************************************/
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  margin: 20px 20px 50px 20px;
+  width: 15%;
+}
+
+/***************************** Pricing Section ******************************************/
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 2% 3%;
+}
+
+/***************************** Call To Action ***********************************************/
+
+#cta{
+  background-color: #FF4C68;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 4rem;
+  font-weight: 900;
+  padding: 4% 0 2% 0;
+  text-align: center;
+}
+
+.cta-heading{
+  margin: 0 auto;
+  width: 60%;
+}
+
+/****************************** Footer Section ***********************************************/
+
+#footer{
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icon{
+  padding: 1.5%;
+}
